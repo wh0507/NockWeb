@@ -28,18 +28,6 @@ public class ShohinServlet extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 
-		//リクエストパラメータ取得
-//		request.setCharacterEncoding("UTF-8");
-//		String id = request.getParameter("id");
-//		String name = request.getParameter("name");
-//		String kakaku = request.getParameter("kakaku");
-
-		//入力値をプロパティに設定
-//		ShohinBean shBean = new ShohinBean();
-//		shBean.setId(id);
-//		shBean.setName(name);
-//		shBean.setKakaku(Integer.parseInt(kakaku));
-
 		//HttpSessionインスタンス取得
 		HttpSession session = request.getSession();
 
